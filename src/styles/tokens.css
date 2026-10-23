@@ -1,0 +1,64 @@
+:root {
+  color-scheme: light;
+
+  /* Palette */
+  --bg: #f7f6fc;
+  --bg-soft: #fbfaff;
+  --surface: #ffffff;
+  --surface-muted: #f8f6fd;
+  --ink: #211d36;
+  --ink-soft: #5b5675;
+  --muted: #8b86a3;
+  --line: #ece8f6;
+  --line-strong: #e1dbef;
+
+  --purple-50: #f2efff;
+  --purple-100: #e8e3ff;
+  --purple-300: #b9adfb;
+  --purple-500: #7b6af0;
+  --purple-600: #6554e6;
+  --purple-700: #5142c9;
+
+  --mint-50: #eafaf4;
+  --mint-100: #d5f5ea;
+  --mint-400: #6fdfc2;
+  --mint-500: #3cc9a6;
+  --mint-600: #1f9f83;
+
+  --amber-50: #fff6e6;
+  --amber-100: #ffe9c7;
+  --amber-500: #f0ad3d;
+  --amber-600: #b47a15;
+
+  --sky-50: #edf3ff;
+  --sky-100: #dde9ff;
+  --sky-500: #6f9cf0;
+  --sky-600: #4a7fd8;
+
+  --coral-50: #fff0ea;
+  --coral-100: #ffe0d5;
+  --coral-500: #ee8a66;
+  --coral-600: #cf6b47;
+
+  /* Radii */
+  --radius-xl: 26px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+  --radius-pill: 999px;
+
+  /* Shadows */
+  --shadow-card: 0 1px 2px rgba(33, 29, 54, 0.03), 0 14px 34px -26px rgba(33, 29, 54, 0.35);
+  --shadow-hover: 0 2px 4px rgba(33, 29, 54, 0.04), 0 20px 36px -24px rgba(33, 29, 54, 0.32);
+  --shadow-float: 0 24px 60px -24px rgba(33, 29, 54, 0.4);
+  --shadow-purple: 0 14px 26px -16px rgba(101, 84, 230, 0.65);
+
+  /* Layout */
+  --sidebar-width: 264px;
+  --content-max: 1240px;
+  --gutter: clamp(18px, 3.5vw, 44px);
+  --bottom-nav-height: 72px;
+
+  --font-sans: 'Manrope', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --transition: 180ms cubic-bezier(0.2, 0.7, 0.3, 1);
+}
